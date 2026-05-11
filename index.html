@@ -1,48 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Okechuwku Uneze</h1>
-        <nav>
-            <a href="#header">GitHub</a>
-            <a href="#about-me">About Me</a>
-            <a href="#projects">Projects</a>
-        </nav>
+        <div class="container">
+            <h1><a href="https://github.com/Okeyna" target="_blank">Okechukwu Uneze</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
+
     <!-- Hero Section -->
     <section id="hero">
         <h2>Hi, I'm Okechukwu Uneze</h2>
-        <p>A passionate Developer building web applications and solving problems with code.</p>
+        <p>
+            A passionate self-taught developer with a knack for creating efficient and
+            user-friendly web applications. I enjoy learning new technologies and
+            applying them to solve real-world problems. Welcome to my portfolio!
+        </p>
     </section>
 
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>This is the about me section.</p>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a self-taught developer with a love for creating intuitive and
+                efficient web applications. With a background in computer science, I
+                enjoy learning new technologies and applying them to real-world
+                projects. When I'm not coding, you can find me reading the bible, novels or manga.
+            </p>
+        </div>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <div class="project-item">
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
-            </div>
-            <div class="project-item">
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
-            </div>
-            <div class="project-item">
-                <h3>Project 3</h3>
-                <p>Description of project 3.</p>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5</div>
+                <div class="skill-card">CSS3</div>
+                <div class="skill-card">React</div>
+                <div class="skill-card">Node.js</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Git/GitHub</div>
+                <div class="skill-card">Responsive Design</div>
             </div>
         </div>
     </section>
-    <footer>&copy; 2026 Okechuwku Uneze. All rights reserved.</footer>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Calculator App</h3>
+                        <p>
+                            A functional calculator built with JavaScript.
+                            Features basic arithmetic operations.
+                        </p>
+                        <a href="https://github.com/Okeyna/js-calculator-lab.git" target="_blank">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            The website you are viewing right now! Designed to highlight my
+                            skills and showcase my work to potential employers.
+                        </p>
+                        <a href="https://github.com/Okeyna/personal-portfolio.git" target="_blank">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container" style="text-align: center;">
+            <h2>Get In Touch</h2>
+            <p>Interested in working together? Feel free to reach out!</p>
+            <p>unezeo@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Okechukwu Uneze. All Rights Reserved.</p>
+    </footer>
 </body>
+
 </html>
